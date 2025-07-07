@@ -1,0 +1,518 @@
+@font-face {
+    font-family: 'exmouth_';
+    src: url(../fuentes/exmouth_.ttf);
+}
+
+@font-face {
+    font-family: 'big_noodle_titling';
+    src: url(../fuentes/big_noodle_titling.ttf);
+}
+@font-face {
+    font-family: 'Coolvetica Rg Cond';
+    src: url(../fuentes/Coolvetica\ Rg\ Cond.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family:'Coolvetica Rg Cond' ;
+}
+
+.primero {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(247, 188, 188);
+    display: flex;
+    justify-content: space-between;
+}
+
+.izq1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.der1 {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+#titu1 {
+    font-family: 'exmouth_';
+    font-size: 45px;
+}
+
+.vinculos {
+    text-decoration: none;
+    color: black;
+    font-family: 'big_noodle_titling';
+}
+
+#boton1 {
+    width: 20%;
+    height: 2rem;
+    font-family: 'big_noodle_titling';
+    border: none;
+}
+
+.segundo {
+    background-image: url(../imagenes/1x/Recurso\ 4.png);
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+#logo2 {
+    width: 240px;
+}
+
+.elementos1 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#titu2 {
+    font-size: 80px;
+    font-family: 'exmouth_';
+}
+
+#titu3 {
+    font-size: 30px;
+    font-family: 'big_noodle_titling';
+}
+
+#boton2 {
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(202, 95, 95);
+    color: white;
+    border: none;
+}
+
+.tipos {
+    width: 270px;
+}
+
+.tercero {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(194, 194, 194, 0.226);
+}
+
+.past1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boton333 {
+    background-color: rgb(247, 188, 188);
+    width: 45%;
+    height: 6vh;
+    border: none;
+    font-family: 'big_noodle_titling';
+}
+
+#p1 {
+    text-align: center;
+    font-family: 'Coolvetica Rg Cond';
+}
+
+.pasteles3 {
+    width: 100%;
+    height: 57vh;
+    background-color: rgb(247, 188, 188);
+}
+
+.trej {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.titu4 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton33 {
+    background-color: rgb(202, 95, 95);
+    color: white;
+    width: 45%;
+    height: 6vh;
+    border: none;
+    font-family: 'big_noodle_titling';
+}
+
+#titu5 {
+    font-size: 50px;
+    font-family: 'big_noodle_titling';
+}
+
+.titutrej {
+    font-family: 'big_noodle_titling';
+}
+
+.titu6 {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(194, 194, 194, 0.226);
+}
+
+#dorao {
+    font-size: 60px;
+    font-family: 'exmouth_';
+    color: rgb(182, 133, 0);
+}
+
+.cuarto {
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(194, 194, 194, 0.226);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.izq2 {
+    width: 25%;
+    height: 65vh;
+    background-color: rgb(247, 188, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#holi {
+    font-size: 85px;
+    font-family: 'exmouth_';
+}
+
+#descuento {
+    font-size: 50px;
+    font-family: 'big_noodle_titling';
+    text-align: center;
+}
+
+#boton4 {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(146, 54, 77);
+    font-size: 20px;
+    font-family: 'big_noodle_titling';
+}
+
+.hb {
+    width: 90%;
+}
+.centro{
+     width: 25%;
+    height: 65vh;
+    background-image: url(../imagenes/Pastelitos.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orden{
+    width: 90%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#boton5{
+    width: 60%;
+    height: 3rem;
+    border: none;
+    border-radius: 50px;
+    font-family: 'big_noodle_titling';
+    font-size: 20px;
+}
+.der2{
+    width: 25%;
+    height: 65vh;
+    background-color: rgb(146, 54, 77);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#galleta5{
+    width: 150px;
+}
+.tx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 37vh;
+    gap: 2rem;
+    color: white;
+}
+#titu7{
+    font-size: 50px;
+    font-family:'exmouth_' ;
+}
+#tip{
+    font-family: 'Coolvetica Rg Cond';
+}
+.ultimo{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#ultima{
+    width: 170px;
+}
+.imgpasteles{
+    width: 15%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.centro2{
+    width: 30%;
+    height: 28vh;
+}
+.arriba2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+.izq3{
+    width: 45%;
+    height: 18vh;
+     display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+.der3{
+    width: 45%;
+    height: 18vh;
+     display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+.do{
+    display: flex;
+    justify-content: space-between;
+}
+.mijmo{
+    font-family: 'Coolvetica Rg Cond';
+}
+.social{
+    width: 65px;
+}
+.der4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(243, 177, 177);
+    font-family: 'exmouth_';
+    font-size: 25px;
+}
+.heart{
+    width: 30px;
+}
+@media(max-width:960px){
+    .segundo{
+        height: 190vh;
+        .elementos1{
+            width: 100%;
+            height: 100vh;
+            #boton2{
+                height: 8vh;
+                width: 15%;
+            }
+        }
+    }
+    .tercero{
+        height: 130vh;
+        .pasteles3{
+            width: 100%;
+            height: 76vh;
+            .titu4{
+                height: 20vh;
+            }
+        }
+    }
+    .titu6{
+        height: 20vh;
+        width: 100%;
+    }
+    .cuarto{
+        height: 90vh;
+        .izq2, .der2, .centro{
+            height: 80vh;
+            .tx{
+                height: 50vh;
+            }
+        }
+    }
+    .ultimo{
+        height: 45vh;
+        .imgpasteles{
+            height: 45vh;
+            width: 27%;
+        }
+        .centro2{
+            height: 45vh;
+            .arriba2{
+                height: 20vh;
+            }
+        }
+    }
+}
+@media(max-width:480px){
+    .primero{
+        height: 55vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .izq1{
+            #titu1{
+                font-size: 80px;
+            }
+        }
+        .der1{
+            flex-direction: column;
+            font-size: 30px;
+            #boton1{
+                width: 70%;
+                height: 6vh;
+                font-size: 30px;
+            }
+        }
+       
+    }
+    .segundo{
+        height: 135vh;
+        .elementos1{
+            width: 100%;
+            height: 50vh;
+            #boton2{
+                width: 35%;
+                font-size: 25px;
+            }
+        }
+    }
+    .tercero{
+        height: 190vh;
+        .pasteles3{
+            height: 18vh;
+            .trej{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .past1{
+                    width: 90%;
+                    .boton333, .boton33{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .titu6{
+        height: 10vh;
+    }
+    .cuarto{
+        height: 222vh;
+        flex-direction: column;
+        align-items: center;
+        .izq2, .centro, .der2{
+            width: 90%;
+            height: 70vh;
+            #holi{
+                font-size: 130px;
+            }
+            #descuento{
+                font-size: 100px;
+            }
+            #boton4{
+                height: 8vh;
+                font-size: 35px;
+            }
+            #boton5{
+                width: 70%;
+                height: 70px;
+                font-size: 50px;
+            }
+            .tx{
+                height: 42vh;
+            }
+            #titu7{
+                font-size: 70px;
+            }
+            #tip{
+                font-size: 30px;
+            }
+        }
+    }
+    .ultimo{
+        flex-direction: column;
+        align-items: center;
+        height: 120vh;
+        .imgpasteles{
+            width:90%;
+            height: 20vh;
+            #ultima{
+                width: 225px;
+            }
+        }
+        .centro2{
+            width: 90%;
+            height: 50vh;
+            .arriba2{
+                height: 10vh;
+            }
+            .do{
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                .izq3{
+                    width: 100%;
+                }
+            }
+        }
+        .social{
+            width: 100px;
+        }
+    }
+}
