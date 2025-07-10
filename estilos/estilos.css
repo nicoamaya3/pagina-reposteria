@@ -398,9 +398,9 @@ p{
         }
     }
 }
-@media(max-width:480px){
+@media(max-width:500px){
     .primero{
-        height: 55vh;
+        height: 85vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -422,10 +422,10 @@ p{
        
     }
     .segundo{
-        height: 135vh;
+        height: 145vh;
         .elementos1{
             width: 100%;
-            height: 50vh;
+            height: 80vh;
             #boton2{
                 width: 35%;
                 font-size: 25px;
@@ -433,7 +433,7 @@ p{
         }
     }
     .tercero{
-        height: 190vh;
+        height: 300vh;
         .pasteles3{
             height: 18vh;
             .trej{
@@ -453,7 +453,7 @@ p{
         height: 10vh;
     }
     .cuarto{
-        height: 260vh;
+        height: 280vh;
         flex-direction: column;
         align-items: center;
         .izq2, .centro, .der2{
@@ -488,7 +488,8 @@ p{
     .ultimo{
         flex-direction: column;
         align-items: center;
-        height: 270vh;
+        gap: 3rem;
+        
         .imgpasteles{
             width:90%;
             height: 20vh;
