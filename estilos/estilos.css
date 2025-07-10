@@ -398,7 +398,7 @@ p{
         }
     }
 }
-@media(max-width:500px){
+@media(max-width:480px){
     .primero{
         height: 55vh;
         flex-direction: column;
@@ -453,7 +453,7 @@ p{
         height: 10vh;
     }
     .cuarto{
-        height: 222vh;
+        height: 260vh;
         flex-direction: column;
         align-items: center;
         .izq2, .centro, .der2{
@@ -488,7 +488,7 @@ p{
     .ultimo{
         flex-direction: column;
         align-items: center;
-        height: 120vh;
+        height: 270vh;
         .imgpasteles{
             width:90%;
             height: 20vh;
